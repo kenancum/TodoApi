@@ -45,11 +45,11 @@ dotnet add package Dapper -v [version]
 Also, you can consider adding the versions of those packages that you are using in your project.
 
 ### API Endpoints
-* GET /todo: Retrieve a list of all to-do items
-* GET /todo/{id}: Retrieve a specific to-do item by id
-* POST /todo: Create a new to-do item
-* PUT /todo/{id}: Update a specific to-do item by id
-* DELETE /todo/{id}: Delete a specific to-do item by id
+* GET /: Retrieve a list of all to-do items
+* GET /{id}: Retrieve a specific to-do item by id
+* POST /: Create a new to-do item
+* PUT /: Update a specific to-do item by id
+* DELETE /{id}: Delete a specific to-do item by id
 
 ### Built With
 * [Azure](https://azure.microsoft.com/en-us/) - Cloud platform used for hosting and database
@@ -60,6 +60,27 @@ Also, you can consider adding the versions of those packages that you are using 
 
 ### Deployment
 This API is deployed to Azure at https://todoapi20230114063602.azurewebsites.net/.
+
+### Postman
+You can send request or retrieve response from [Postman](https://www.postman.com/).
+
+1. Download and install Postman
+
+2. Download the To do API Requests.postman_collection.json file from the root directory of your project.
+
+3. In Postman, click on the "Import" button in the top left corner.
+
+4. In the "Import File" modal, select the "Choose Files" button and select the To do API Requests.postman_collection.json file you downloaded in step 2.
+
+5. The "Todo API" collection will now be imported into your Postman workspace. You can find it in the "Collections" tab on the left sidebar.
+
+6. Click on the "Todo API" collection to expand it and view the available endpoints.
+
+7. Click on an endpoint to open the request, and then click on the "Send" button to execute the request.
+
+8. Check the response and verify that it matches the expected result.
+
+Alternatively, you can send your custom requests by using the endpoints I mentioned before.
 
 ### Author
 * [Kenan Cum](https://linkedin.com/in/kenancum/)
